@@ -1,0 +1,30 @@
+{
+  "benchmark": "memory",
+  "results": {
+    "BTree": {
+      "elements": 5409000,
+      "memory_used_bytes": 268537856,
+      "bytes_per_element": 49.646488445183955
+    },
+    "LinkedList": {
+      "elements": 3041000,
+      "memory_used_bytes": 268476416,
+      "bytes_per_element": 88.2855692206511
+    },
+    "RedBlackTree": {
+      "elements": 2615000,
+      "memory_used_bytes": 268517376,
+      "bytes_per_element": 102.68350898661568
+    },
+    "SkipList": {
+      "elements": 1748000,
+      "memory_used_bytes": 268476416,
+      "bytes_per_element": 153.59062700228833
+    },
+    "HashTable": {
+      "elements": 820000,
+      "memory_used_bytes": 282148864,
+      "bytes_per_element": 344.08398048780487
+    }
+  }
+}

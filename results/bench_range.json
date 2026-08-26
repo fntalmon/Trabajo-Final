@@ -1,0 +1,59 @@
+{
+  "benchmark": "range",
+  "results": {
+    "SkipList": {
+      "avg_latency_us": 40.97100117709488,
+      "query_rate": 24408.793887066615,
+      "dataset": 500000,
+      "num_queries": 100000
+    },
+    "RedBlackTree": {
+      "avg_latency_us": 33.01309566789617,
+      "query_rate": 30292.252422252106,
+      "dataset": 500000,
+      "num_queries": 100000
+    },
+    "BTree": {
+      "avg_latency_us": 15.318902310294408,
+      "query_rate": 65362.27565495548,
+      "dataset": 500000,
+      "num_queries": 100000
+    },
+    "HashTable_50": {
+      "avg_latency_us": 5781.614671771725,
+      "query_rate": 172.98678543319875,
+      "dataset": 50000,
+      "num_queries": 50
+    },
+    "HashTable_100": {
+      "avg_latency_us": 5735.554019920527,
+      "query_rate": 174.38763148094176,
+      "dataset": 50000,
+      "num_queries": 100
+    },
+    "HashTable_500": {
+      "avg_latency_us": 5935.290141652029,
+      "query_rate": 168.72419070150215,
+      "dataset": 50000,
+      "num_queries": 500
+    },
+    "LinkedList_500": {
+      "avg_latency_us": 2227.838335558772,
+      "query_rate": 448.9486602645042,
+      "dataset": 50000,
+      "num_queries": 500
+    },
+    "LinkedList_1000": {
+      "avg_latency_us": 2265.3751395021877,
+      "query_rate": 441.50147595549697,
+      "dataset": 50000,
+      "num_queries": 1000
+    },
+    "LinkedList_5000": {
+      "avg_latency_us": 2244.485332351178,
+      "query_rate": 445.5635100119219,
+      "dataset": 50000,
+      "num_queries": 5000
+    }
+  }
+}
